@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="../vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link href="../vendor/sweetalert2/dist/sweetalert2.css" />
+    <link rel="stylesheet" href="contents/css/index.css">
+</head>
+<body>
+
+    <section id="login" class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="input-div">
+                    <h3>SIGN IN</h3>
+                    <form name="Login" id="portalLoginForm" method="post" onsubmit="return false">
+                        <input id="username" value="elmer@creativedevlabs.com" class="input1" type="text" placeholder="USERNAME" required>
+                        <input id="password" value="1235" class="input2 inline" type="password" placeholder="PASSWORD" required>
+                        <a href=""><img class="inline" src="contents/images/view.png" alt=""></a>
+                        
+                        <button type="submit" class="btn btn-info">Login</button>
+
+                        <div class="text-center forgot_password">
+                            <center><a href="" class="forgot">Forgot Password?</a></center>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+
+    <script src="../vendor/jquery/dist/jquery.js"></script>
+    <script src="../vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../vendor/sweetalert2/dist/sweetalert2.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
